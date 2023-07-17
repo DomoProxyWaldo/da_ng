@@ -1,0 +1,25 @@
+{
+  "name": "da_ng",
+  "version": "0.0.1",
+  "description": "Domo da cli for Angular",
+  "main": "index.js",
+  "bin": {
+    "da_ng": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "da",
+    "cli"
+  ],
+  "author": "Domo - Engineering Services",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3",
+    "inquirer-autocomplete-prompt": "^1.2.0",
+    "node-plop": "^0.26.2",
+    "yargs": "^16.1.0"
+  }
+}
